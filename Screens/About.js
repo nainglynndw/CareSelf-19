@@ -49,6 +49,20 @@ const About = () => {
       <Image source={require("../assets/covid.gif")} style={styles.img} />
       <View
         style={{
+          backgroundColor: "#18648c",
+          width: "100%",
+          alignItems: "center",
+          padding: 5,
+        }}
+      >
+        <Text style={{ fontWeight: "bold", fontSize: 18, color: "#eee" }}>
+          SelfCare - 19
+        </Text>
+        <Text style={{ color: "#eee" }}>v1.1</Text>
+      </View>
+
+      <View
+        style={{
           flex: 1,
           justifyContent: "center",
           margin: 5,
@@ -69,6 +83,11 @@ const About = () => {
             {" "}
             CURRENT MONITORING DATA .
           </Text>
+          <Text style={{ color: "darkblue", fontWeight: "bold" }}>
+            {" "}
+            OXYGEN PLANTS LOCATIONS{" "}
+          </Text>
+          throughout Myanmar.
         </Text>
         <Text style={{ marginVertical: 10 }}>
           {"\t"}
@@ -78,15 +97,13 @@ const About = () => {
           <Text style={{ color: "darkblue", fontWeight: "bold" }}>
             Medical Articles
           </Text>{" "}
-          and
+          and{" "}
           <Text style={{ color: "darkblue", fontWeight: "bold" }}>
-            {" "}
-            OXYGEN PLANTS LOCATIONS{" "}
+            Tele Clinic
           </Text>
-          throughout Myanmar.
         </Text>
         <Text style={{ marginTop: 10, fontWeight: "bold", marginVertical: 10 }}>
-          Your suggestions , Our Pleasure .
+          " Your Health , Our Pleasure "
         </Text>
         <TouchableOpacity
           style={{ flexDirection: "row" }}
@@ -130,7 +147,7 @@ const About = () => {
           borderRadius: 5,
         }}
       >
-        <Text> Support Us and Donate Myanmar</Text>
+        <Text>Want to Support ?</Text>
       </TouchableOpacity>
     </View>
   );
@@ -146,8 +163,8 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   img: {
-    width: (Dimensions.get("window").width * 9) / 10,
-    height: (Dimensions.get("window").width * 9) / 10,
+    width: (Dimensions.get("window").width * 8) / 10,
+    height: (Dimensions.get("window").width * 8) / 10,
     resizeMode: "contain",
   },
 

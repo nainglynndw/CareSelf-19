@@ -1,15 +1,15 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-const Home = () => {
+const TeleClinic = () => {
   return (
     <View style={styles.container}>
-      <Text>Coming Soon ...</Text>
+      <Text>Coming Soon ..... </Text>
     </View>
   );
 };
 
-export default Home;
+export default TeleClinic;
 
 const styles = StyleSheet.create({
   container: {

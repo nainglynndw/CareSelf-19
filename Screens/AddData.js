@@ -43,7 +43,7 @@ const AddData = ({ navigation }) => {
     setLoading(false);
     navigation.reset({
       index: 0,
-      routes: [{ name: "Home" }],
+      routes: [{ name: "Chart" }],
     });
   };
 
@@ -62,7 +62,7 @@ const AddData = ({ navigation }) => {
           <Text
             style={{
               fontWeight: "bold",
-
+              color: "#eee",
               fontSize: 18,
               marginVertical: 20,
             }}
