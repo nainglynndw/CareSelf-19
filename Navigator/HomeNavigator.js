@@ -5,7 +5,6 @@ import About from "../Screens/About";
 import AddData from "../Screens/AddData";
 import { MaterialIcons } from "@expo/vector-icons";
 import Chart from "../Screens/Chart";
-import Oxygen from "../Screens/Oxygen";
 import OxygenNavigator from "./OxygenNavigator";
 
 const tab = createMaterialBottomTabNavigator();

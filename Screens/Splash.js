@@ -30,7 +30,7 @@ const Splash = ({ navigation }) => {
         } else {
           navigation.reset({
             index: 0,
-            routes: [{ name: "Home" }],
+            routes: [{ name: "HomeNavigator" }],
           });
         }
       }, 3000);

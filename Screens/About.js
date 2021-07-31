@@ -58,7 +58,7 @@ const About = () => {
         <Text style={{ fontWeight: "bold", fontSize: 18, color: "#eee" }}>
           SelfCare - 19
         </Text>
-        <Text style={{ color: "#eee" }}>v1.1</Text>
+        <Text style={{ color: "#eee" }}>v1.2</Text>
       </View>
 
       <View
@@ -67,41 +67,19 @@ const About = () => {
           justifyContent: "center",
           margin: 5,
           padding: 5,
+          marginBottom: 10,
         }}
       >
         <Text>
-          {"\t"}
-          {"\t"}
-          {"\t"}
-          For now , this app has features like checking patient's{" "}
-          <Text style={{ color: "red", fontWeight: "bold" }}>
-            {" "}
-            UNDERLINE DATA{" "}
-          </Text>{" "}
-          and{" "}
+          For now , this app has features like - {"\n"}
           <Text style={{ color: "green", fontWeight: "bold" }}>
             {" "}
-            CURRENT MONITORING DATA .
-          </Text>
-          <Text style={{ color: "darkblue", fontWeight: "bold" }}>
-            {" "}
-            OXYGEN PLANTS LOCATIONS{" "}
-          </Text>
-          throughout Myanmar.
-        </Text>
-        <Text style={{ marginVertical: 10 }}>
-          {"\t"}
-          {"\t"}
-          {"\t"}
-          Next OTA Update Version will support{" "}
-          <Text style={{ color: "darkblue", fontWeight: "bold" }}>
-            Medical Articles
-          </Text>{" "}
-          and{" "}
-          <Text style={{ color: "darkblue", fontWeight: "bold" }}>
+            - checking patient's Underline Data{"\n"} - Current Monitoring Data
+            {"\n"} - Oxygen Plants' Locations {"\n"} - Medical Articles{"\n"} -
             Tele Clinic
           </Text>
         </Text>
+
         <Text style={{ marginTop: 10, fontWeight: "bold", marginVertical: 10 }}>
           " Your Health , Our Pleasure "
         </Text>
